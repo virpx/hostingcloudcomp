@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "65759c821885fd85f8fc116f"
+  },
+  "email": "a@gmail.com",
+  "name": "a",
+  "password": "$2b$10$qjtCqghogTKedsr99EBwzOE9HOn.p4aX1jmpMCV2GUaZmke2lXgzS",
+  "profile_path": "profiles/a@gmail.com.png",
+  "role": 0,
+  "createdAt": "2023-12-10T00:00:00.000Z",
+  "updatedAt": {
+    "$date": "2023-12-30T09:50:19.795Z"
+  },
+  "listkursus": [
+    {
+      "kursus": {
+        "$oid": "6590ecc8f477c9d8076920fb"
+      },
+      "last_progress": 2,
+      "current_index": 2,
+      "nilai_quiz": [
+        {
+          "name": "Sample Quiz",
+          "score": 50,
+          "_id": {
+            "$oid": "658e73edc0a1aa8c5ed39710"
+          }
+        }
+      ],
+      "createdAt": "2023-12-10T00:00:00.000Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65900befff59682c0c5b0549"
+  },
+  "email": "j@gmail.com",
+  "name": "joni g",
+  "password": "$2b$10$czWtVx77rlG.QARWeg03OuWHG893c8oc.0akSMJlXDhnX3YoPok4i",
+  "profile_path": "profiles/a@gmail.com.png",
+  "role": 1,
+  "active": 1,
+  "createdAt": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "listkursus": []
+},
+{
+  "_id": {
+    "$oid": "65929568ad2445a59c7d5f09"
+  },
+  "email": "b@gmail.com",
+  "name": "b",
+  "password": "$2b$10$wY39IUH474REluIKqjh3GeMytc2dWc2WHOm6ObE1sZ2nrhCMnod1.",
+  "profile_path": null,
+  "role": 0,
+  "active": 1,
+  "createdAt": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-01T10:42:57.790Z"
+  },
+  "listkursus": [
+    {
+      "kursus": {
+        "$oid": "6590ecc8f477c9d8076920fb"
+      },
+      "last_progress": 1,
+      "current_index": 1,
+      "nilai_quiz": [],
+      "createdAt": {
+        "$date": "2024-01-06T06:19:42.582Z"
+      },
+      "updatedAt": {
+        "$date": "2024-01-06T06:19:42.582Z"
+      }
+    }
+  ]
+}]

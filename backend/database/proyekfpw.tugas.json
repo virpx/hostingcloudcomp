@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "658fc8b3b2e3d557b4113af9"
+  },
+  "tugas_id": {
+    "$oid": "658fc66cb2e3d557b4113869"
+  },
+  "user_id": {
+    "$oid": "65759c821885fd85f8fc116f"
+  },
+  "path": "assignments/a@gmail.com/658fc66cb2e3d557b4113869.pdf",
+  "score": 100
+},
+{
+  "_id": {
+    "$oid": "658fcd0fb2e3d557b4113d42"
+  },
+  "tugas_id": {
+    "$oid": "658fc66cb2e3d557b4113863"
+  },
+  "user_id": {
+    "$oid": "65759c821885fd85f8fc116f"
+  },
+  "path": "assignments/a@gmail.com/658fc66cb2e3d557b4113863.pdf",
+  "score": 0
+}]
