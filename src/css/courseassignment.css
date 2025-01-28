@@ -1,0 +1,58 @@
+#assignment-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #1a2138;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#assignmentName,
+#assignmentDescription {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #2e354d;
+  border: 1px solid #3a4858;
+  color: #fff;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+#assignmentDescription {
+  height: 100px;
+}
+
+#submitBtn {
+  background-color: #f57c00;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submitBtn:hover {
+  background-color: #ff9900;
+}
+
+.readonly-input {
+  background-color: #2e354d;
+  border: 1px solid #3a4858;
+  padding: 12px;
+  margin-bottom: 15px;
+  color: #fff;
+  border-radius: 8px;
+}

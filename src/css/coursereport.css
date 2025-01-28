@@ -1,0 +1,21 @@
+#report-title {
+  color: #f57c00;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.score-table th,
+.score-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #fff;
+}
+
+.score-table th {
+  background-color: #f57c00;
+}
