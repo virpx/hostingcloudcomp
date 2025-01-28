@@ -1,9 +1,0 @@
-[{
-    "kursus_id" : {
-        "$oid":"65912dc46cb3cf09f4ed1514"
-    },
-    "question":"Apa itu react",
-    "lanswer":[
-        
-    ]
-}]
