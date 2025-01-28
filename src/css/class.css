@@ -1,0 +1,60 @@
+#sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background-color: #1a2138;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar div {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+#sidebar div:hover {
+  background-color: #f57c00;
+  cursor: pointer;
+}
+
+#content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Add margin as needed */
+}
+
+.button {
+  padding: 8px 12px; /* Adjust padding to make the button smaller */
+  font-size: 14px; /* Adjust font size to make the text smaller */
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px; /* Rounded border */
+}
+
+.navy-button {
+  background-color: #1a2138;
+  color: white;
+}
+
+.orange-button {
+  background-color: #f57c00;
+  color: white;
+}
+
+/* Style for disabled buttons */
+.button:disabled {
+  background-color: #ccc; /* Gray color for disabled state */
+  color: #555; /* Darker gray text for disabled state */
+  cursor: not-allowed; /* Show not-allowed cursor for disabled state */
+}
