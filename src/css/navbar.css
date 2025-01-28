@@ -1,0 +1,10 @@
+/* Add these styles for the outline buttons */
+#btnrl {
+  color: white;
+  border-color: white;
+}
+
+#btnrl:hover {
+  background-color: #f57c00;
+  color: white;
+}
